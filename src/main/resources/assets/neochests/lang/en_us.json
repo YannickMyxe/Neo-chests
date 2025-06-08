@@ -2,5 +2,6 @@
   "itemGroup.neochests": "Neo-Chests",
   "item.neochests.bismuth": "Bismuth",
   "item.neochests.raw_bismuth": "Raw Bismuth",
-  "block.neochests.bismuth_block": "Block of Bismuth"
+  "block.neochests.bismuth_block": "Block of Bismuth",
+  "block.neochests.bismuth_ore": "Bismuth Ore"
 }
