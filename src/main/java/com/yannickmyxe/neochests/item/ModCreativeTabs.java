@@ -32,7 +32,7 @@ public class ModCreativeTabs {
 
     public static final Supplier<CreativeModeTab> BISMUTH_BLOCKS = CREATIVE_TAB.register("bismuth_blocks_tab", () ->
             CreativeModeTab.builder()
-                    .withTabsAfter(ResourceLocation.fromNamespaceAndPath(NeoChests.MOD_ID, "bismuth_items_tab"))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(NeoChests.MOD_ID, "bismuth_items_tab"))
                     .icon(() -> new ItemStack(ModBlocks.BISMUTH_BLOCK.get()))
                     .title(Component.translatable("creativetab.neochests.bismuth_blocks"))
                     .displayItems((params, output) -> {
