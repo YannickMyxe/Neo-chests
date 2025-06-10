@@ -2,10 +2,12 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolLs": 0.0,
-      "conditions": [{
-        "condition": "minecraft:survives_explosion"
-      }],
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
@@ -13,7 +15,6 @@
         }
       ],
       "rolls": 1.0
-
     }
   ],
   "random_sequence": "neochests:blocks/bismuth_block"
