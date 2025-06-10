@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "neochests:bismuth_block",
+    "neochests:bismuth_ore",
+    "neochests:bismuth_deepslate_ore"
+  ]
+}
