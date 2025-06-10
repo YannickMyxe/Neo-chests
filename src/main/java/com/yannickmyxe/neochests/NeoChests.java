@@ -63,6 +63,7 @@ public class NeoChests {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.BISMUTH_BLOCK);
             event.accept(ModBlocks.BISMUTH_ORE_BLOCK);
+            event.accept(ModBlocks.BISMUTH_DEEPSLATE_ORE_BLOCK);
         }
     }
 
